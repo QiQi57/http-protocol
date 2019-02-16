@@ -97,14 +97,14 @@ http2.0 连续的两端都知道已经发送了哪些首部，从而可以针对
 ### 10.http2.0 升级与兼容性
 客户端使用HTTP Upgrade 机制通过协调确定适当的协议。
 
-Upgrade：HTTP／2.0
-HTTP-Settings：（SETTINGS payload）
+Upgrade：HTTP／2.0 <br/>
+HTTP-Settings：（SETTINGS payload） <br/>
 
-服务器拒绝升级，会通过http1.1 返回响应
+服务器拒绝升级，会通过http1.1 返回响应 <br/>
 
-服务器接受HTTP2.0 升级，会切换到新的分帧
-HTTP／1.1 101 Switching Protocols
-Connection：Upgrade
+服务器接受HTTP2.0 升级，会切换到新的分帧 <br/>
+HTTP／1.1 101 Switching Protocols <br/>
+Connection：Upgrade <br/>
 Upgrade：HTTP/2.0
 
 
